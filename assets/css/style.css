@@ -122,19 +122,21 @@
 
 
 
-.logo_Shahedul {
+.logo_Shahedul,.logo_Mobile {
 
-  color: #fa0000b1;
+  color: #FB3810;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 25px;
   font-weight: 700;
+  text-align: center;
 }
 
-.logo_Shahedul:hover {
-  color: #0616ff;
-  font-size: 35px;
+.logo_Shahedul:hover ,.logo_Mobile:hover {
+  color: #ff0630;
+  font-size: 26px;
   font-weight: 800;
 }
+
 
 
 
@@ -11764,6 +11766,7 @@ Copyright (c) 2015 Daniel Eden
 
 .cd-words-wrapper b.is-visible {
   position: relative;
+  color: #FB3810;
 }
 
 .no-js .cd-words-wrapper b {
@@ -12386,7 +12389,7 @@ body.template-color-1 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #fd4520;
   visibility: hidden;
   opacity: 0;
   transition: opacity .5s ease-out;
@@ -12421,9 +12424,10 @@ body.template-color-1 {
 }
 
 .popup-mobile-menu .inner .menu-top .menu-header {
-  display: flex;
+  display: block;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
 .popup-mobile-menu .inner .menu-top .menu-header .close-button .close {
@@ -12490,6 +12494,7 @@ body.template-color-1 {
 .popup-mobile-menu.menu-open .inner .content {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .popup-mobile-menu.menu-open .inner .content .primary-menu {
@@ -21021,6 +21026,7 @@ body.white-version {
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list .heading .date-of-time span {
   background: var(--color-white);
   box-shadow: var(--shadow-white-3);
+
 }
 
 .white-version .rn-resume-area .personal-experience-inner .experience-list .resume-single-list:hover .heading {
@@ -21120,6 +21126,7 @@ body.white-version {
 
 .white-version .testimonial .inner .card-description .discription {
   color: var(--color-body-white);
+  text-align: justify;
 }
 
 .white-version .testimonial .inner .card-description .title-area .rating {
